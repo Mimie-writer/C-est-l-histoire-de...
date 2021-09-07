@@ -1,0 +1,24 @@
+body{
+    margin: auto;
+    height: 1000px;
+}
+
+
+.main-bloc{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bloc{
+    background-color: darkslategrey;
+    border-radius: 0.35rem;
+    width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.bloc-title{
+    padding: 2px;
+    text-align: center;
+    background-color: gray;
+}

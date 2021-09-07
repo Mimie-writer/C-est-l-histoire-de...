@@ -1,0 +1,29 @@
+body{
+  margin: auto;
+  height: 1000px;
+}
+.slogan{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  height: 250px;
+  width: 700px;
+}
+
+
+.img-cat{
+  display: flex;
+  max-width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  /*width: 100%;
+  height: 270px;*/
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}

@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    }
+    .btn {
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+    }
+    #select{
+      background-color: rgb(145, 145, 145);
+    }
+    .btn-group a {
+      background-color: rgb(248, 242, 242); 
+      border: 1px solid white; 
+      color: black; 
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 0.85rem;
+      font-weight: 550;
+      padding: 10px 24px;
+      text-decoration: none;
+      cursor: pointer; /* Pointer/hand icon */
+      /*float: left;*/ /* Float the buttons side by side */
+      
+    }  
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+      content: "";
+      clear: both;
+      display: table;
+    } 
+    .btn-group a:not(:last-child) {
+      border-right: none;  /*Prevent double borders */
+    } 
+    .btn-group a:hover {
+      background-color: rgb(37, 19, 19);
+      color: white;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+    }
+
+
+
+    .fixed{
+        position: fixed;
+        top: 0;
+    }

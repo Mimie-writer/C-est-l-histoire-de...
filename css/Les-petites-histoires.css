@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    height: 1000px;
+}
+
+
+.bloc-title{
+    display: block;
+    align-items: baseline;
+    padding: 2px 50px;
+    text-align: center;
+    background-color: gray;
+}
+
+.bloc-t1{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 7%;
+    padding: 120px 0 0;
+    background-color: darkslategrey;
+    border-radius: 0.35rem;
+}
+.bloc-t2{
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 5%;
+    padding: 120px 0 0;
+    background-color: darkslategrey;
+    border-radius: 0.35rem;
+}
