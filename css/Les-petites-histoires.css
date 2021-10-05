@@ -6,25 +6,25 @@ body{
 
 .bloc-title{
     display: block;
-    align-items: baseline;
-    padding: 2px 50px;
+    padding: 10px 100px;
     text-align: center;
+    margin-top: 100%;
     background-color: gray;
 }
 
 .bloc-t1{
     display: inline-block;
-    margin-left: 4%;
+    margin-left: 6%;
     margin-top: 7%;
-    padding: 120px 0 0;
+    height: 300px;
     background-color: darkslategrey;
     border-radius: 0.35rem;
 }
 .bloc-t2{
     display: inline-block;
-    margin-left: 4%;
+    margin-left: 6%;
     margin-top: 5%;
-    padding: 120px 0 0;
+    height: 300px;
     background-color: darkslategrey;
     border-radius: 0.35rem;
 }
